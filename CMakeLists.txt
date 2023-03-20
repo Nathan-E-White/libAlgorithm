@@ -6,3 +6,7 @@ project(libAlgorithm CXX)
 
 # C++ Standard
 set(CMAKE_CXX_STANDARD 23)
+
+# GREP the src files
+file(GLOB_RECURSE SRC_FILES src/*.cc)
+
